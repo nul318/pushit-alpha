@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/addinfo_bg2"
+    tools:context="pushit.pushit.Launcher"
+
+    >
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_info_phonenumber"
+        android:textSize="20sp"
+        android:layout_marginTop="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/add_info_company_name"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="32dp"
+        android:layout_below="@+id/add_info_phonenumber"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/add_info_submit"
+
+        android:background="@drawable/addinfo_submit_bg"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/add_info_company_address"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/add_info_company_name"
+        android:layout_alignStart="@+id/add_info_company_name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/add_info_company_rank"
+        android:layout_below="@+id/add_info_company_address"
+        android:layout_alignStart="@+id/add_info_company_address"
+        android:layout_marginTop="33dp" />
+
+</RelativeLayout>

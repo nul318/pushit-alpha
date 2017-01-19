@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/push_it_back">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/container_layout"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/card"
+            android:layout_centerInParent="true"/>
+
+        <EditText
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PHONE NUMBER"
+            android:inputType="phone"
+            android:id="@+id/phone_number_et"
+            android:layout_below="@id/card"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/faMenu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:menu_fab_size="normal"
+        android:scaleType="center"
+        fab:menu_colorNormal="#3e4146"
+        fab:menu_icon="@drawable/add">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/template"
+            fab:fab_size="normal"
+            fab:fab_colorNormal="#3e4146"
+            android:id="@+id/from_template"
+            android:onClick="onClick"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/camera"
+            fab:fab_colorNormal="#3e4146"
+            fab:fab_size="normal"
+            android:id="@+id/from_camera"
+            android:onClick="onClick"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cardlist"
+            fab:fab_size="normal"
+            fab:fab_colorNormal="#3e4146"
+            android:id="@+id/cardList"
+            android:onClick="onClick"/>
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

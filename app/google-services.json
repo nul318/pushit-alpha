@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1092502353793",
+    "firebase_url": "https://pushit-cdd08.firebaseio.com",
+    "project_id": "pushit-cdd08",
+    "storage_bucket": "pushit-cdd08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092502353793:android:5a6127ee544a71c2",
+        "android_client_info": {
+          "package_name": "pushit.pushit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092502353793-gl3uublmg8aodjvu79d6dblo9d0bmhli.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pushit.pushit",
+            "certificate_hash": "46E23607D43D810CD3E1E73C04D2E74FC70DBD99"
+          }
+        },
+        {
+          "client_id": "1092502353793-jn29v2soau8kjmd8qofl37737f874v0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSEjlgdDuE1H8coI7xLrcTvUroMLXjtfo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092502353793-jn29v2soau8kjmd8qofl37737f874v0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
